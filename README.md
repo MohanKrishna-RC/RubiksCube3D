@@ -20,10 +20,16 @@ Turn, scramble and time a 3D Rubik’s Cube from your browser toolbar. Choose a 
 
 ## A closer look
 
-| **Interactive 3D view** | **Flat face map** |
+| **Solved** | **Scrambled** |
 |:--:|:--:|
-| ![RubiksCube3D showing a 4×4 cube and its controls](store/cube-3d-view.png) | ![Illustration of a 4×4 cube unfolded into a six-face net](store/cube-net-reference.svg) |
-| The live extension view, captured at desktop size. | A simple diagram showing how the six faces unfold into a net. |
+| ![Solved 4×4 RubiksCube3D cube with uniform faces](store/cube-3d-view.png) | ![Scrambled 4×4 RubiksCube3D cube with seven moves](store/cube-scrambled-view.png) |
+| Start with a clean cube and make it your own. | A seven-move scramble, captured in the 3D view. |
+
+**The six faces, unfolded**
+
+![Illustration of a 4×4 cube unfolded into a six-face net](store/cube-net-reference.svg)
+
+*A simple 4×4 diagram showing how the cube’s six faces unfold into a net.*
 
 ## Made for cubing
 
