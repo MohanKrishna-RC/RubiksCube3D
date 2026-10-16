@@ -5,10 +5,10 @@
 Turn, scramble and time a 3D Rubik’s Cube from your browser toolbar. Choose a size from 2×2 to 8×8, inspect every move in a responsive 3D view, and keep cubing offline after installation.
 
 <p align="center">
-  <a href="https://github.com/MohanKrishna-RC/RubiksCube3D/raw/refs/heads/main/release/rubiks-cube-extension-1.1.0.zip"><strong>⬇ Download RubiksCube3D for Chrome</strong></a>
+  <a href="https://github.com/MohanKrishna-RC/RubiksCube3D/raw/refs/heads/main/release/rubiks-cube-extension-1.1.1.zip"><strong>⬇ Download RubiksCube3D for Chrome</strong></a>
 </p>
 
-<p align="center"><sub>Version 1.1.0 · Free download · No account required</sub></p>
+<p align="center"><sub>Version 1.1.1 · Free download · No account required</sub></p>
 
 ## Your cube, your way
 
@@ -38,6 +38,7 @@ Turn, scramble and time a 3D Rubik’s Cube from your browser toolbar. Choose a 
 - **Flexible turning:** click a facelet, use keyboard notation, or make wide and inner-layer turns.
 - **Scramble and practice:** generate a scramble, track move count, and undo or redo turns.
 - **Hint and session solve:** reveal the inverse of your last recorded move, or step through / play the full reverse of moves made during the current session.
+- **Choose any top color:** select white, yellow, green, blue, red, or orange to smoothly reorient the cube while preserving the scramble.
 - **Guided 3×3 lessons:** learn the beginner method in seven self-paced stages, with progress saved in your browser.
 - **Speedcubing sessions:** use a 15-second inspection, best time, trimmed Ao5/Ao12, solve history, +2 and DNF marking.
 - **2D net:** switch to a flat view of the cube’s faces.
@@ -46,7 +47,7 @@ Turn, scramble and time a 3D Rubik’s Cube from your browser toolbar. Choose a 
 
 ## Install
 
-1. Download and extract the [Chrome extension ZIP](https://github.com/MohanKrishna-RC/RubiksCube3D/raw/refs/heads/main/release/rubiks-cube-extension-1.1.0.zip).
+1. Download and extract the [Chrome extension ZIP](https://github.com/MohanKrishna-RC/RubiksCube3D/raw/refs/heads/main/release/rubiks-cube-extension-1.1.1.zip).
 2. Open `chrome://extensions` and turn on **Developer mode**.
 3. Select **Load unpacked** and choose the extracted folder containing `manifest.json`.
 4. Pin the RubiksCube3D icon if you like, then click it to open the cube.
@@ -69,7 +70,7 @@ The extension is packaged for Chromium browsers that support Manifest V3, includ
 
 ## Releases
 
-Current release: **1.1.0**. Download the ZIP above, or browse the [release files](https://github.com/MohanKrishna-RC/RubiksCube3D/tree/main/release).
+Current release: **1.1.1**. Download the ZIP above, or browse the [release files](https://github.com/MohanKrishna-RC/RubiksCube3D/tree/main/release).
 
 ## Feedback
 
