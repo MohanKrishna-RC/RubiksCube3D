@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500" role="img" aria-labelledby="title desc">
   <title id="title">Rubik’s Cube face layout</title>
   <desc id="desc">A clean, color-accurate 4 by 4 Rubik’s Cube net showing the up, left, front, right, back and down faces.</desc>
   <defs>
@@ -6,16 +6,13 @@
       <stop stop-color="#151923"/>
       <stop offset="1" stop-color="#0c0f15"/>
     </linearGradient>
-    <filter id="shadow" x="-25%" y="-25%" width="150%" height="160%">
-      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".3"/>
-    </filter>
     <pattern id="white" width="24" height="24" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="20" height="20" rx="3" fill="#fff"/></pattern>
     <pattern id="orange" width="24" height="24" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="20" height="20" rx="3" fill="#ff3d00"/></pattern>
     <pattern id="green" width="24" height="24" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="20" height="20" rx="3" fill="#06402b"/></pattern>
     <pattern id="red" width="24" height="24" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="20" height="20" rx="3" fill="#c30010"/></pattern>
     <pattern id="blue" width="24" height="24" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="20" height="20" rx="3" fill="#2664f5"/></pattern>
     <pattern id="yellow" width="24" height="24" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="20" height="20" rx="3" fill="#ffeb00"/></pattern>
-    <g id="face" filter="url(#shadow)"><rect width="96" height="96" rx="9" fill="#080b11"/></g>
+    <g id="face"><rect width="96" height="96" rx="9" fill="#080b11"/></g>
   </defs>
   <rect width="760" height="500" rx="24" fill="url(#background)"/>
   <text x="44" y="54" fill="#f6f7fb" font-family="system-ui, sans-serif" font-size="17" font-weight="700" letter-spacing="1.4">THE CUBE, UNFOLDED</text>
