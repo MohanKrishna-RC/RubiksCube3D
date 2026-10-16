@@ -31,7 +31,7 @@ Whether you are learning your first cube, practicing algorithms, or timing speed
 
 ![Illustration of a 4×4 cube unfolded into a six-face net](store/cube-net-reference.svg)
 
-*A simple 4×4 diagram showing how the cube’s six faces unfold into a net.*
+*The default face colors arranged in a standard 4 × 4 cube net.*
 
 ## Made for cubing
 
