@@ -18,6 +18,13 @@ Turn, scramble and time a 3D Rubik’s Cube from your browser toolbar. Choose a 
 | **See the whole puzzle** | **Practice at your pace** |
 | Orbit around the cube, zoom in for a closer look, or open a 2D net view to see all six faces at once. | Generate a scramble, track your moves and use the built-in timer with a 15-second inspection period. |
 
+## A closer look
+
+| **Interactive 3D view** | **Flat face map** |
+|:--:|:--:|
+| ![RubiksCube3D showing a 4×4 cube and its controls](store/cube-3d-view.png) | ![Illustration of a 4×4 cube unfolded into a six-face net](store/cube-net-reference.svg) |
+| The live extension view, captured at desktop size. | A simple diagram showing how the six faces unfold into a net. |
+
 ## Made for cubing
 
 - **Interactive 3D cube:** drag to orbit and scroll or pinch to zoom.
