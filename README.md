@@ -1,8 +1,10 @@
-# RubiksCube3D
+# RubiksCube3D — 3D Rubik’s Cube Simulator
 
-### A whole cube, right in your browser.
+### A virtual speedcube for your browser.
 
-Turn, scramble and time a 3D Rubik’s Cube from your browser toolbar. Choose a size from 2×2 to 8×8, inspect every move in a responsive 3D view, and keep cubing offline after installation.
+RubiksCube3D is a free, interactive 3D Rubik’s Cube simulator built as a browser extension. Practice on a virtual 2×2, 3×3, 4×4, 5×5, 6×6, 7×7 or 8×8 cube: turn layers with your mouse, touch screen or keyboard, generate scrambles, and track timed solves. Explore the puzzle from any angle, choose which color faces up, and use guided beginner lessons to learn the 3×3 method. The extension works offline after installation, so you can practice right from your browser toolbar.
+
+Whether you are learning your first cube, practicing algorithms, or timing speedsolves, RubiksCube3D brings a configurable cube, scramble tool, timer and visual practice space together in one place.
 
 <p align="center">
   <a href="https://github.com/MohanKrishna-RC/RubiksCube3D/raw/refs/heads/main/release/rubiks-cube-extension-1.2.11.zip"><strong>⬇ Download RubiksCube3D for Chrome</strong></a>
@@ -16,7 +18,7 @@ Turn, scramble and time a 3D Rubik’s Cube from your browser toolbar. Choose a 
 |:--|:--|
 | Play on cubes from **2×2 through 8×8**. Switch sizes whenever you want a different challenge. | Turn a face by clicking its tiles, or use familiar cube notation from the keyboard. Undo and redo moves as you practice. |
 | **See the whole puzzle** | **Practice at your pace** |
-| Orbit around the cube, zoom in for a closer look, or open a 2D net view to see all six faces at once. | Generate a scramble, track your moves and use the built-in timer with a 15-second inspection period. |
+| Freely rotate the cube, zoom in for a closer look, or open a 2D net view to see all six faces at once. | Generate a scramble, track your moves and use the built-in speedcubing timer with a 15-second inspection period. |
 
 ## A closer look
 
@@ -33,7 +35,7 @@ Turn, scramble and time a 3D Rubik’s Cube from your browser toolbar. Choose a 
 
 ## Made for cubing
 
-- **Interactive 3D cube:** drag to orbit and scroll or pinch to zoom.
+- **Interactive 3D cube:** drag the cube to rotate it freely, then scroll or pinch to zoom.
 - **Six cube sizes:** choose 2×2, 3×3, 4×4, 5×5, 6×6, 7×7 or 8×8.
 - **Flexible turning:** click a facelet, use keyboard notation, or make wide and inner-layer turns.
 - **Scramble and practice:** generate a scramble, track move count, and undo or redo turns.
@@ -60,7 +62,7 @@ The extension is packaged for Chromium browsers that support Manifest V3, includ
 
 | Action | Control |
 |:--|:--|
-| Orbit the cube | Drag the background |
+| Rotate the cube | Drag the cube |
 | Zoom | Scroll or pinch |
 | Turn a face | Click a facelet, or use `U D R L F B` |
 | Reverse a turn | `Shift` + move key (prime notation) |
@@ -73,6 +75,16 @@ The extension is packaged for Chromium browsers that support Manifest V3, includ
 ## Releases
 
 Current release: **1.2.11**. Download the ZIP above, or browse the [release files](https://github.com/MohanKrishna-RC/RubiksCube3D/tree/main/release).
+
+## Frequently asked questions
+
+**Is RubiksCube3D free?** Yes. The extension is free to download and does not require an account.
+
+**Which cube sizes are supported?** You can play on virtual cubes from 2×2 through 8×8, including the classic 3×3 Rubik’s Cube.
+
+**Can I use it offline?** Yes. Once installed, the cube and its bundled 3D engine run locally in the browser without an external service.
+
+**Does it include a Rubik’s Cube solver?** It includes move hints and can reverse the moves recorded during your current session. It does not claim to solve an arbitrary cube state.
 
 ## Feedback
 
