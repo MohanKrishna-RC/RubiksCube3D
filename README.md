@@ -1,16 +1,61 @@
 # RubiksCube3D
 
-A standalone Chrome extension for exploring and solving 3D Rubik’s Cubes from 2×2 through 8×8. The extension includes its rendering engine and works offline after installation.
+### A whole cube, right in your browser.
 
-## Download
+Turn, scramble and time a 3D Rubik’s Cube from your browser toolbar. Choose a size from 2×2 to 8×8, inspect every move in a responsive 3D view, and keep cubing offline after installation.
 
-[Download RubiksCube3D for Chrome](https://github.com/MohanKrishna-RC/RubiksCube3D/raw/refs/heads/main/release/rubiks-cube-extension-1.0.0.zip)
+<p align="center">
+  <a href="https://github.com/MohanKrishna-RC/RubiksCube3D/raw/refs/heads/main/release/rubiks-cube-extension-1.0.0.zip"><strong>⬇ Download RubiksCube3D for Chrome</strong></a>
+</p>
+
+<p align="center"><sub>Version 1.0.0 · Free download · No account required</sub></p>
+
+## Your cube, your way
+
+| **Pick your challenge** | **Make every turn count** |
+|:--|:--|
+| Play on cubes from **2×2 through 8×8**. Switch sizes whenever you want a different challenge. | Turn a face by clicking its tiles, or use familiar cube notation from the keyboard. Undo and redo moves as you practice. |
+| **See the whole puzzle** | **Practice at your pace** |
+| Orbit around the cube, zoom in for a closer look, or open a 2D net view to see all six faces at once. | Generate a scramble, track your moves and use the built-in timer with a 15-second inspection period. |
+
+## Made for cubing
+
+- **Interactive 3D cube:** drag to orbit and scroll or pinch to zoom.
+- **Six cube sizes:** choose 2×2, 3×3, 4×4, 5×5, 6×6, 7×7 or 8×8.
+- **Flexible turning:** click a facelet, use keyboard notation, or make wide and inner-layer turns.
+- **Scramble and practice:** generate a scramble, track move count, and undo or redo turns.
+- **Speed timer:** use a 15-second inspection followed by a solve timer.
+- **2D net:** switch to a flat view of the cube’s faces.
+- **Offline after installation:** the rendering engine is bundled with the extension; no account or external service is needed to play.
+- **Lightweight permissions:** the extension requests access to browser tabs so its toolbar button can open the cube.
 
 ## Install
 
-1. Download and extract the ZIP.
-2. Open `chrome://extensions` and enable **Developer mode**.
-3. Click **Load unpacked** and select the extracted folder.
-4. Click the cube icon in Chrome’s toolbar.
+1. Download and extract the [Chrome extension ZIP](https://github.com/MohanKrishna-RC/RubiksCube3D/raw/refs/heads/main/release/rubiks-cube-extension-1.0.0.zip).
+2. Open `chrome://extensions` and turn on **Developer mode**.
+3. Select **Load unpacked** and choose the extracted folder containing `manifest.json`.
+4. Pin the RubiksCube3D icon if you like, then click it to open the cube.
 
-For controls and usage notes, see `EXTENSION.md` inside the downloaded package.
+The extension is packaged for Chromium browsers that support Manifest V3, including Chrome, Edge and Brave.
+
+## Controls
+
+| Action | Control |
+|:--|:--|
+| Orbit the cube | Drag the background |
+| Zoom | Scroll or pinch |
+| Turn a face | Click a facelet, or use `U D R L F B` |
+| Reverse a turn | `Shift` + move key (prime notation) |
+| Wide turn | `Ctrl` + move key |
+| Inner-layer turn | `Alt` + move key |
+| Rotate the whole cube | `X Y Z` |
+| Undo / redo | `Z` / `Ctrl` + `Y` |
+| Start inspection / timer | `Space` |
+
+## Releases
+
+Current release: **1.0.0**. Download the ZIP above, or browse the [release files](https://github.com/MohanKrishna-RC/RubiksCube3D/tree/main/release).
+
+## Feedback
+
+Found a problem or have an idea? [Open an issue](https://github.com/MohanKrishna-RC/RubiksCube3D/issues).
