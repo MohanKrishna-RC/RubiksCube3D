@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500" role="img" aria-labelledby="title desc">
+  <title id="title">Rubik’s Cube face layout</title>
+  <desc id="desc">A clean, color-accurate 4 by 4 Rubik’s Cube net showing the up, left, front, right, back and down faces.</desc>
+  <defs>
+    <linearGradient id="background" x2="0" y2="1">
+      <stop stop-color="#151923"/>
+      <stop offset="1" stop-color="#0c0f15"/>
+    </linearGradient>
+    <pattern id="white" width="24" height="24" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="20" height="20" rx="3" fill="#fff"/></pattern>
+    <pattern id="orange" width="24" height="24" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="20" height="20" rx="3" fill="#ff3d00"/></pattern>
+    <pattern id="green" width="24" height="24" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="20" height="20" rx="3" fill="#06402b"/></pattern>
+    <pattern id="red" width="24" height="24" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="20" height="20" rx="3" fill="#c30010"/></pattern>
+    <pattern id="blue" width="24" height="24" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="20" height="20" rx="3" fill="#2664f5"/></pattern>
+    <pattern id="yellow" width="24" height="24" patternUnits="userSpaceOnUse"><rect x="2" y="2" width="20" height="20" rx="3" fill="#ffeb00"/></pattern>
+    <g id="face"><rect width="96" height="96" rx="9" fill="#080b11"/></g>
+  </defs>
+  <rect width="760" height="500" rx="24" fill="url(#background)"/>
+  <text x="44" y="54" fill="#f6f7fb" font-family="system-ui, sans-serif" font-size="17" font-weight="700" letter-spacing="1.4">THE CUBE, UNFOLDED</text>
+  <text x="44" y="79" fill="#969eaf" font-family="system-ui, sans-serif" font-size="13">A solved 4 × 4 cube · six faces in a standard net</text>
+  <g>
+    <use href="#face" x="284" y="128"/><rect x="284" y="128" width="96" height="96" rx="9" fill="url(#white)"/>
+    <use href="#face" x="176" y="236"/><rect x="176" y="236" width="96" height="96" rx="9" fill="url(#orange)"/>
+    <use href="#face" x="284" y="236"/><rect x="284" y="236" width="96" height="96" rx="9" fill="url(#green)"/>
+    <use href="#face" x="392" y="236"/><rect x="392" y="236" width="96" height="96" rx="9" fill="url(#red)"/>
+    <use href="#face" x="500" y="236"/><rect x="500" y="236" width="96" height="96" rx="9" fill="url(#blue)"/>
+    <use href="#face" x="284" y="344"/><rect x="284" y="344" width="96" height="96" rx="9" fill="url(#yellow)"/>
+  </g>
+  <g fill="#e1e7f0" font-family="system-ui, sans-serif" font-size="12" font-weight="700" letter-spacing="1.1" text-anchor="middle">
+    <text x="332" y="118">UP</text><text x="224" y="226">LEFT</text><text x="332" y="226">FRONT</text>
+    <text x="440" y="226">RIGHT</text><text x="548" y="226">BACK</text><text x="332" y="334">DOWN</text>
+  </g>
+  <text x="44" y="462" fill="#737d90" font-family="system-ui, sans-serif" font-size="11">Face colors match the default RubiksCube3D palette.</text>
+</svg>
