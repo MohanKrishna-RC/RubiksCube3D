@@ -29,7 +29,7 @@ Whether you are learning your first cube, practicing algorithms, or timing speed
 
 **The six faces, unfolded**
 
-![Illustration of a 4×4 cube unfolded into a six-face net](store/cube-net-reference.svg)
+![Illustration of a 4×4 cube unfolded into a six-face net](store/cube-net-clean.svg)
 
 *The default face colors arranged in a standard 4 × 4 cube net.*
 
